@@ -1,0 +1,62 @@
+body {
+ background-color: #333;
+ color: #fff;
+ font-family: Arial, sans-serif;
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+}
+
+header {
+ text-align: center;
+ padding: 20px 0;
+}
+
+.grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+ gap: 20px;
+ padding: 20px;
+ flex-grow: 1;
+}
+
+.video {
+ background-color: #444;
+ padding: 20px;
+ border-radius: 10px;
+ transition: transform 0.3s ease;
+}
+
+.video img {
+ width: 100%;
+ height: auto;
+}
+
+.video a {
+ text-decoration: none;
+ color: #fff;
+}
+
+.video h2 {
+ margin: 0;
+ padding: 10px 0;
+}
+
+.video p {
+ margin: 0;
+ padding: 0 10px;
+}
+
+.video:hover {
+ transform: scale(1.05);
+}
+
+.frnz {
+ background-color: #444040;
+ color: #fff;
+ text-align: center;
+ padding: 20px 0;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
